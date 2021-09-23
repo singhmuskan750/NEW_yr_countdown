@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap");
+
+* {
+    box-sizing:border-box; 
+}
+
+body {
+    background:url("./melanie-magdalena-KpBAYMNf9Tw-unsplash.jpg") center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:"Poppins" , sans-serif; 
+    margin: 0;
+    color: #15191a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+span{
+    background-color: rgb(204, 123, 31);
+    border: 2px solid #ddd;
+    padding: 7px;
+    border-radius: 0.7rem;
+    color: #ddd;
+    margin: 30px;
+    font-family: monospace;
+    font-weight: 800;
+    box-shadow: rgb(204 123 31 / 22%) 0px 0px 5px 3px;
+}
+
+.countdown-contain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #ddd;
+    border: 2px solid #999;
+    padding: 25px;
+    box-shadow: 0 0 5px 3px #ccc;
+    display: flex;
+    flex-direction: row
+
+
+}
+
+h1 {
+    font-weight: normal;
+    color: gainsboro;
+    font-family: serif;
+    font-weight: 600;
+    font-size: 64px;
+    margin-top: 115px;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 1; 
+    margin: 14px 33px;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 24px;
+}
